@@ -1,0 +1,42 @@
+.perant{
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "a a b b b"
+    "c c b b b"
+    "d d e f f"
+    "g g g g g"
+    ;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.child-1{
+    background-color: green;
+    grid-area: a;
+}
+.child-2{
+    background-color: red;
+    grid-area: b;
+}
+.child-3{
+    background-color: violet;
+    grid-area: c;
+}
+.child-4{
+    background-color: purple;
+    grid-area: d;
+}
+.child-5{
+    background-color: blue;
+    grid-area: e;
+}
+.child-6{
+    background-color: darkcyan;
+    grid-area: f;
+}
+.child-7{
+    background-color: rgba(179, 16, 197, 0.976);
+    grid-area: g;
+}
